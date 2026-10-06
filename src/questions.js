@@ -1,14 +1,15 @@
 const questions = [
+
   {
-    question: "A mixture having a uniform composition throughout is called:",
-    options: [
-      "Heterogeneous mixture",
-      "Homogeneous mixture",
-      "Compound",
-      "Element"
-    ],
-    answer: 1
-  },
+   question: "Which language is used to style a web page?",
+   options: [
+     "HTML",
+     "CSS",
+     "Java",
+     "SQL"
+   ],
+   answer: 1
+   },
 
   {
     question: "Which of the following is a heterogeneous mixture?",
