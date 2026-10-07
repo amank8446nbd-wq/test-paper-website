@@ -1,172 +1,114 @@
 const questions = [
-
   {
-   question: "Which language is used to style a web page?",
-   options: [
-     "HTML",
-     "CSS",
-     "Java",
-     "SQL"
-   ],
-   answer: 1
-   },
-
+    question: "Aman ka favourite colour kya hai?",
+    options: ["Blue", "Black", "White", "Red"],
+    answer: 1
+  },
   {
-    question: "Which of the following is a heterogeneous mixture?",
-    options: [
-      "Salt solution",
-      "Sugar solution",
-      "Sand and water",
-      "Air"
-    ],
+    question: "Aman ko favourite food mein kya pasand hai?",
+    options: ["Rajma Chawal", "Chole Puri", "Pizza", "Biryani"],
+    answer: 1
+  },
+  {
+    question: "Aman ka favourite fast food kya hai?",
+    options: ["Burger", "Pizza", "Momos", "Chowmein"],
     answer: 2
   },
-
   {
-    question: "Which one is a homogeneous mixture?",
-    options: [
-      "Oil and water",
-      "Sand and iron filings",
-      "Salt solution",
-      "Soil"
-    ],
+    question: "Aman ko kaunsi cold drink pasand hai?",
+    options: ["Pepsi", "Coca-Cola", "Maza", "Sprite"],
     answer: 2
   },
-
   {
-    question: "A compound is formed when:",
+    question: "Aman ki favourite chocolate kaunsi hai?",
+    options: ["KitKat", "Dairy Milk", "5 Star", "Perk"],
+    answer: 1
+  },
+  {
+    question: "Aman ko kaunsi ice cream pasand hai?",
+    options: ["Butterscotch", "Vanilla", "Cone Chocolate", "Strawberry"],
+    answer: 2
+  },
+  {
+    question: "Aman ka favourite game kya hai?",
+    options: ["BGMI", "Free Fire", "GTA V", "Minecraft"],
+    answer: 1
+  },
+  {
+    question: "Aman ko kaunsa sport pasand hai?",
+    options: ["Cricket", "Football", "Kabaddi", "Hockey"],
+    answer: 2
+  },
+  {
+    question: "Aman ko movies mein kya pasand hai?",
+    options: ["Bollywood", "Hollywood", "South Indian", "Anime"],
+    answer: 1
+  },
+  {
+    question: "Aman ko sabse zyada kya karna pasand hai?",
+    options: ["Ghar par rehna", "Shopping", "Phirta rehna 😎", "Sona"],
+    answer: 2
+  },
+  {
+    question: "Aman ko kapdon mein kya pasand hai?",
     options: [
-      "Two substances are physically mixed",
-      "Two or more elements chemically combine",
-      "Only one element is present",
-      "Solids are mixed with liquids"
+      "T-shirt + Shorts",
+      "Shirt + Straight-fit jeans",
+      "Kurta Pajama",
+      "Hoodie + Joggers"
     ],
     answer: 1
   },
-
   {
-    question: "Which of the following is a compound?",
-    options: [
-      "Oxygen",
-      "Iron",
-      "Water",
-      "Air"
-    ],
-    answer: 2
-  },
-
-  {
-    question: "Which of the following is an element?",
-    options: [
-      "Carbon dioxide",
-      "Water",
-      "Oxygen",
-      "Common salt"
-    ],
-    answer: 2
-  },
-
-  {
-    question: "In a mixture, the components:",
-    options: [
-      "Always form a new substance",
-      "Are chemically combined",
-      "Generally retain their individual properties",
-      "Have a fixed ratio"
-    ],
-    answer: 2
-  },
-
-  {
-    question: "Which statement is correct about a compound?",
-    options: [
-      "Its components can be present in any ratio",
-      "Its composition is fixed",
-      "Its components retain all their original properties",
-      "It can always be separated by filtration"
-    ],
+    question: "Aman ki favourite car kaunsi hai?",
+    options: ["Fortuner", "Thar", "Scorpio", "Creta"],
     answer: 1
   },
-
   {
-    question: "Air is generally considered a:",
-    options: [
-      "Element",
-      "Compound",
-      "Homogeneous mixture",
-      "Heterogeneous mixture"
-    ],
+    question: "Aman ka favourite mobile brand kya hai?",
+    options: ["Apple", "OnePlus", "Samsung", "Xiaomi"],
     answer: 2
   },
-
   {
-    question: "Which of these is a heterogeneous mixture?",
-    options: [
-      "Sugar solution",
-      "Salt solution",
-      "Air",
-      "Oil and water"
-    ],
+    question: "Aman ka favourite city kaunsi hai?",
+    options: ["Delhi", "Mumbai", "Bangalore", "Jaipur"],
+    answer: 2
+  },
+  {
+    question: "Aman ko kaunsa animal sabse zyada pasand hai?",
+    options: ["Tiger", "Dog", "Sher 🦁", "Horse"],
+    answer: 2
+  },
+  {
+    question: "Aman ko kaunsa season pasand hai?",
+    options: ["Summer", "Winter ❄️", "Monsoon", "Spring"],
+    answer: 1
+  },
+  {
+    question: "Aman ko kya zyada pasand hai?",
+    options: ["Summer", "Winter ❄️", "Dono same", "Koi nahi"],
+    answer: 1
+  },
+  {
+    question: "Aman morning person hai ya night person?",
+    options: ["Morning 🌅", "Afternoon", "Night 🌙", "Depends"],
+    answer: 2
+  },
+  {
+    question: "Aman ki life mein sabse important kaun hai? ❤️",
+    options: ["Friends", "Family", "Career", "Uski wife ❤️"],
     answer: 3
   },
-
   {
-    question: "Loading is used to:",
+    question: "Aman ka overall personality combo kya lagta hai? 😎",
     options: [
-      "Dissolve impurities",
-      "Make suspended impurities settle faster",
-      "Evaporate water",
-      "Separate dissolved salt"
+      "Ghar mein rehna + movies",
+      "Travel/ghoomna + food + gaming",
+      "Sirf padhai",
+      "Sirf sports"
     ],
     answer: 1
-  },
-
-  {
-    question: "Which substance is commonly used for loading?",
-    options: [
-      "Alum (fitkari)",
-      "Sugar",
-      "Oxygen",
-      "Sand"
-    ],
-    answer: 0
-  },
-
-  {
-    question:
-      "After suspended impurities settle down, the material collected at the bottom is called:",
-    options: [
-      "Supernatant liquid",
-      "Solvent",
-      "Sediment",
-      "Compound"
-    ],
-    answer: 2
-  },
-
-  {
-    question:
-      "The liquid present above the settled sediment is called:",
-    options: [
-      "Sediment",
-      "Supernatant liquid",
-      "Solute",
-      "Element"
-    ],
-    answer: 1
-  },
-
-  {
-    question: "Which pair is correctly matched?",
-    options: [
-      "Oxygen — Compound",
-      "Water — Element",
-      "Salt water — Mixture",
-      "Carbon dioxide — Element"
-    ],
-    answer: 2
   }
 ];
 
-// Updated test questions
 export default questions;
